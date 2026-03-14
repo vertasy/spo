@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { Bricolage_Grotesque } from "next/font/google";
 import { motion } from "framer-motion"; // 👈 import motion
-
+import { Analytics } from "@vercel/analytics/next";
 const bricolage = Bricolage_Grotesque({ subsets: ["latin"] });
 
 // Helper to extract playlist ID from various input formats
@@ -57,6 +57,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen flex flex-col justify-start items-center">
+      <Analytics />
       <main className="h-fit w-full flex justify-center pt-10">
         <div className="w-full max-w-100 px-5">
           {/* Animated Hero Text */}
