@@ -8,8 +8,12 @@
     "start": "next start"
   },
   "dependencies": {
+    "@google/genai": "^1.45.0",
+    "@tanstack/react-query": "^5.90.21",
     "axios": "^1.13.6",
     "axios-cookiejar-support": "^6.0.5",
+    "framer-motion": "^12.36.0",
+    "mime": "^4.1.0",
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3",
