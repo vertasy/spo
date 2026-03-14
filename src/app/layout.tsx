@@ -6,8 +6,9 @@ import Providers from "./providers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Spotify Playlist Viewer",
-  description: "View any Spotify playlist details"
+  title: "VibeCheck – Discover Your Playlist Personality",
+  description:
+    "Connect your Spotify playlist and let AI reveal your unique vibe, personality, and moods. See what your music says about you in seconds."
 };
 
 export default function RootLayout({
